@@ -11,9 +11,4 @@ public class Motorcycle {
     @Override
     public void refuel() {
     }
-
-    // Can not be implemented
-    @Override
-    public void openDoors() {
-    }
 }
