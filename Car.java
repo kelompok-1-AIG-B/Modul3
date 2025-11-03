@@ -1,18 +1,11 @@
-class Car implements VehicleInterface {
-  // Can be implemented
-  @Override
-  public void drive() {
+class Car {
+  private final Engine engine;
+
+  public Car(Engine engine) {
+    this.engine = engine;
   }
 
-  @Override
-  public void stop() {
-  }
-
-  @Override
-  public void refuel() {
-  }
-
-  @Override
-  public void openDoors() {
+  void start() {
+    engine.start();
   }
 }
